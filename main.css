@@ -1,0 +1,88 @@
+body, html{
+	background-color: #fafafa;
+
+}
+
+.nav-header{
+	display:grid;
+	background-color: #40596b;
+	justify-content: center;
+	color:#ffd05a;
+}
+
+.list-color{
+	display:inline-flex;
+	font-family: 'Signika', sans-serif;
+	justify-content: center;
+	font-size: 1.2em;
+}
+
+.main-section{
+	display:grid;
+	background-color: #55c0ec;
+}
+
+.btnStyle{
+	display: flex;
+}
+
+
+.what-is{
+	display: grid;
+	 grid-template-columns: 1fr 1fr;
+  	grid-template-rows: auto;
+	grid-template-areas: "one one "
+						"two three"
+						"four four"
+}
+.one{
+	grid-area: one;
+	
+}
+
+h1.one{
+	display: flex;
+	justify-content: center;
+}
+
+.two{
+
+grid-area: two;
+}
+
+.three{
+
+grid-area: three;
+
+}
+
+.four{
+
+grid-area: four;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.how-it-works{
+	display:grid;
+	background-color: #90ddaa;
+}
+
+.small-footer{
+	display:grid;
+	background-color: #40596b;
+}
+
+.footer-text{
+	color: #b2bcc4;
+}
