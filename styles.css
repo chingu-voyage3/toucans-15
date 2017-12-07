@@ -1,1 +1,58 @@
-styles.css
+/*/////////// What Is TickyBox ////////////////////*/
+
+/*/////////// What is TickyBox  ////////////////////*/
+
+
+
+/*/////////// Start Using TickyBox  ////////////////////*/
+
+.start-using-container{
+	display: grid;
+	font-family: "Signika";
+	padding: 0 1rem;
+    width: auto;
+    font-size: 1.25rem;
+	margin: 0 auto;
+}
+  
+.start-using-title{
+	display: flex;
+	font-weight: 300;
+	justify-content: center;
+}
+
+.flex1{
+	display: flex;
+	justify-content: center;
+}
+.flex2{
+	display: flex;
+	justify-content: center;
+}
+.flex3{
+	display: flex;
+	justify-content: center;
+}
+.start-using-p1{
+	display: flex;
+	font-weight: 300;
+	justify-content: center;
+	line-height: 1.5em;
+	justify-content: center;
+	text-align: center;
+	margin: 190px;
+	margin-bottom: 4rem;
+	margin-top: 0;
+}
+.start-using-image{
+	display: flex;
+	justify-content:center;
+}
+.start-using-p2{
+	display: flex;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	font-weight: 300;
+}
+
+/*/////////// Start Using TickyBox  ////////////////////*/
