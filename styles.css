@@ -288,16 +288,15 @@ body {
 /*//////////////////////////////////////Start Using TickyBot///////////////////////////////////////*/
 
 
-
-
-/* for phone */
-@media only screen and (max-width: 599px){
+/* for desktop */
+@media only screen and (min-width: 1200px){
+  /* all the css above should go here i think? */
 }
 
 /* for tablet-portrait */
 @media only screen and (min-width: 600px){
 }
 
-/* for desktop */
-@media only screen and (min-width: 1200px){
+/* for phone */
+@media only screen and (max-width: 599px){
 }
