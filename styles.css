@@ -124,9 +124,72 @@ body {
 }
 
 /*//////////////////////////////////////What is TickyBot///////////////////////////////////////*/
+/*//////////////////////////////////////How It Works (beginning)///////////////////////////////////////*/
 
+.how-it-works-container{
+  background-color: #92DCAB;
+  font-family: "Signika";
+  font-size: 1.25rem;
+  padding-top: 6px;
+  padding-bottom: 40px;
+  /*display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  grid-template-areas: "title"
+                       "body";*/
+}
 
+.how-it-works-title{
+  /*grid-area: title;*/
+  font-weight: 300;
+  letter-spacing: -.125rem;
+  line-height: 1.25;
+}
 
+.how-it-works-body-container{
+  /*grid-area: body;*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.how-it-works-body{
+  display: flex;
+  flex-direction: column;
+  background-color: #41596A;
+  flex-basis: 350px;
+  height: 490px;
+  margin: 15px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.how-image {
+  width: 196px;
+  height: 230px;
+  margin: 40px;
+  padding-top: 24px;
+}
+
+.how-it-works-text{
+  background-color: white;
+  margin: 0px;
+  font-weight: 300;
+  line-height: 1.5em;
+  padding: 20px;
+  height: 95px;
+  text-align: center;
+}
+
+.codeblock {
+  color: #DA1B40;
+  background-color: #eee;
+  font-family: "Courier New";
+  font-size: 12pt;
+  font-weight: 500;
+}
+/*//////////////////////////////////////How It Works (end)///////////////////////////////////////*/
 /*//////////////////////////////////////Start Using TickyBot///////////////////////////////////////*/
 
 .start-using-container{
