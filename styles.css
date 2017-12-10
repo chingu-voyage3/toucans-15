@@ -1,6 +1,10 @@
 
 /*//////////////////////////////////////Global Styles///////////////////////////////////////*/
 
+body {
+  margin: 0;   /*to extend divs to the edge of window*/
+}
+
 .section-title {
   text-align: center;
   opacity: 0.80;
@@ -26,10 +30,43 @@
 
 
 
+
+/*//////////////////////////////////////Header///////////////////////////////////////////////*/
+
+.nav-header {
+  background-color: #40596b;
+  width: 100%;
+  padding: 1.15rem 0;
+  text-align: center;
+}
+
+.nav-header a:link,
+.nav-header a:visited {
+  text-decoration: none;
+  color: #ffd05a;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  display: inline-block;
+  transition: color .3s;
+  margin-right: 0.75rem;
+}
+
+.nav-header a:hover,
+.nav-header a:active {
+  color: #fff;
+}
+
+.nav-header a:last-child {
+  margin-right: 0;
+}
+
+
+
 /*//////////////////////////////////////What is TickyBot///////////////////////////////////////*/
 .what-is-container{
 	display: grid;
-	font-family: "Signika";
+	font-family: "Signika", sans-serif;
 	padding: 0 1rem;
 	background-color: #fafafa;
     width: auto;
@@ -157,7 +194,7 @@
 
 .start-using-container{
 	display: grid;
-	font-family: "Signika";
+	font-family: "Signika", sans-serif;
 	padding: 0 1rem;
     width: auto;
     font-size: 1.25rem;
@@ -194,10 +231,53 @@
 	margin-bottom: 4rem;
 	margin-top: 0;
 }
-.start-using-image{
-	display: flex;
-	justify-content:center;
+
+/*Slack Button*/
+.btn1{
+  display: flex;
+  background-color: #40596b;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+  line-height: 1;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.75rem;
+  max-width: 300px;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  align-items: center;
+  -webkit-box-align: center;
+  transition: background-color .3s ease-in-out,transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
+  width: 100%;
+ 
 }
+
+.btn1:hover{
+  background-color: rgba(0,0,0,.7);
+  transform: scale(.98);
+  color: hsla(0,0%,100%,.9);
+}
+
+.ab .ac{
+  color:white;
+  font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.ab{
+  font-weight: 400;
+  color:white;
+}
+
+.ac{
+  font-weight:600;
+}
+/*Slack Button*/
+
+
 .start-using-p2{
 	display: flex;
 	margin-top: 4rem;
