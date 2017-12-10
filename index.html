@@ -2,36 +2,36 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-	<title>TickeyBot - Your Support Ticket Slack Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TickyBot - Your Support Ticket Slack Bot</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	 <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600,700&amp;subset=latin-ext" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <body>
 
 <div class="container">
 
-<header class="nav-header">
+<header>
 	<nav>
-		<ul>
-			<li>Home</li>
-			<li>About</li>
-			<li>Features</li>
-			<li>Add To Slack</li>
-		</ul>
+		<div class="nav-header">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#features">Features</a>
+			<a href="https://slack.com/signin?redir=%2Foauth%3Fclient_id%3D39189849459.249480535796%26scope%3Dcommands%252Cbot%252Cusers.profile%253Aread%252Cim%253Aread%252Cchat%253Awrite%253Abot%252Cteam%253Aread" target="_blank">Add to Slack</a>
+		</div>
 	</nav>
 </header>
 
-<div>
+<div id="home">
 	<h1>TickyBot</h1>
 	<h3>Let your team manage thier support tickets 100% inside Slack</h3>
-	
+
 </div><!-- end of first-section-->
 
 
-<div class="what-is-container">
+<div class="what-is-container" id="about">
 	<h1 class="what-is-title section-title">What Is <span class="ticky">Ticky</span>Bot</h1>
-	
+
 <div class="flex-1">
 	<p class="what-is-p1"><strong>Ticky</strong>Bot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p>
 </div>
@@ -47,11 +47,11 @@
 
 </div><!-- end of first-section-->
 
-<div>
+<div id="features">
 	<h1 class="how-it-works section-title">How It Works</h1>
-	
+
 	<p>You can add TickyBot to your Slack workplace by scrolling down or  <a href="www.google.com">clicking here</a></p>
-	
+
 	<p>Your users can open a ticket by typing /ticket and their message into the chat field</p>
 
 	<p>Once you or another admin solved their problems you can type /ticket close #id to close the ticket</p>
@@ -59,13 +59,13 @@
 
 <div class="start-using-container">
 	<h1 class="start-using-title section-title">Start Using <span class="ticky">Ticky</span>Bot Today</h1>
-	
+
 	<div class="flex1">
 		<p class="start-using-p1">
 		Ticky
 		Bot allows Slack teams to manage their support tickets 100% inside Slack, without having to switch between different apps.</p>
 	</div>
-	
+
 	<div class="flex1">
 		<img class="start-using-image" src="img/slack-button.png" alt="slack-button" width="" height="">
 	</div>

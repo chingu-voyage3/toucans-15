@@ -1,10 +1,14 @@
 
 /*//////////////////////////////////////Global Styles///////////////////////////////////////*/
 
+body {
+  margin: 0;   /*to extend divs to the edge of window*/
+}
+
 .section-title {
   text-align: center;
   opacity: 0.80;
-  
+
 }
 
 .section-title:after {
@@ -17,7 +21,7 @@
   margin: 5px auto;
   bottom: 0px;
   transform: translateY(-280%);
-  
+
 }
 
 
@@ -26,10 +30,43 @@
 
 
 
+
+/*//////////////////////////////////////Header///////////////////////////////////////////////*/
+
+.nav-header {
+  background-color: #40596b;
+  width: 100%;
+  padding: 1.1rem 0;
+  text-align: center;
+}
+
+.nav-header a:link,
+.nav-header a:visited {
+  text-decoration: none;
+  color: #ffd05a;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  display: inline-block;
+  transition: color .3s;
+  margin-right: 0.75rem;
+}
+
+.nav-header a:hover,
+.nav-header a:active {
+  color: #fff;
+}
+
+.nav-header a:last-child {
+  margin-right: 0;
+}
+
+
+
 /*//////////////////////////////////////What is TickyBot///////////////////////////////////////*/
 .what-is-container{
 	display: grid;
-	font-family: "Signika";
+	font-family: "Signika", sans-serif;
 	padding: 0 1rem;
 	background-color: #fafafa;
     width: auto;
@@ -38,11 +75,11 @@
 	grid-column-gap:20px;
 	grid-auto-columns: 1fr 1fr;
 	grid-auto-rows: auto;
-	grid-template-areas:"title title" 
+	grid-template-areas:"title title"
 						 "p1 p2"
 						 "three three"
 }
-  
+
 .what-is-title{
 	font-weight: 300;
 	letter-spacing: -.125rem;
@@ -51,11 +88,11 @@
 }
 
 .test{
-	
+
 }
 .ticky{
 	font-weight: 600;
-	
+
 }
 
 .what-is-p1{
@@ -67,7 +104,7 @@
 	margin-top: 0;
 }
 .what-is-p2{
-	
+
 	grid-area:p2;
 	font-weight: 300;
 	line-height: 1.5em;
@@ -94,13 +131,13 @@
 
 .start-using-container{
 	display: grid;
-	font-family: "Signika";
+	font-family: "Signika", sans-serif;
 	padding: 0 1rem;
     width: auto;
     font-size: 1.25rem;
 	margin: 0 auto;
 }
-  
+
 .start-using-title{
 	font-weight: 300;
 	letter-spacing: -.125rem;
