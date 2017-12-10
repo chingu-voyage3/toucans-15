@@ -1,0 +1,69 @@
+.btn-cta--dark:focus, .btn-cta--dark:hover {
+    background-color: rgba(0,0,0,.7);
+}
+.btn-cta:focus, .btn-cta:hover {
+    background-color: hsla(0,0%,100%,.9);
+    -webkit-transform: scale(.98);
+    transform: scale(.98);
+}
+.btn-cta--extra-margin {
+    margin: 5rem auto;
+}
+.btn-cta--dark {
+    background-color: #40596b;
+    color: hsla(0,0%,100%,.9);
+}
+.btn-cta {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    color: inherit;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.75rem;
+    line-height: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 1rem;
+    text-decoration: none;
+    -webkit-transition: background-color .3s ease-in-out,-webkit-transform .3s ease-in-out;
+    transition: background-color .3s ease-in-out,-webkit-transform .3s ease-in-out;
+    transition: background-color .3s ease-in-out,transform .3s ease-in-out;
+    transition: background-color .3s ease-in-out,transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
+    width: 100%;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+* {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.container {
+    font-size: 1.25rem;
+}
+.cta {
+    text-align: center;
+}
+body {
+    color: rgba(0,0,0,.75);
+    font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+html {
+    cursor: default;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
