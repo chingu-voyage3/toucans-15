@@ -232,7 +232,25 @@ body {
 	margin-top: 0;
 }
 
+
+
 /*Slack Button*/
+.start-using-img{
+    margin: 0 1rem 0 0;
+    padding: 0;
+    transition: transform .3s ease-in-out;
+    width: 2.5rem;
+    background-color: rgba(white, .9);
+    transform: scale(.98);
+}
+
+
+/*.btn1:hover,*/
+
+.start-using-img:hover {
+    transform: scale(1.5) rotate(18deg);
+}
+
 .btn1{
   display: flex;
   background-color: #40596b;
