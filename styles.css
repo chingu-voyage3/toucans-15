@@ -25,6 +25,10 @@ body {
 }
 
 
+a { color: inherit; } 
+
+
+
 
 /*//////////////////////////////////////Global Styles///////////////////////////////////////*/
 
@@ -304,6 +308,83 @@ body {
 }
 
 /*//////////////////////////////////////Start Using TickyBot///////////////////////////////////////*/
+
+/*//////////////////////////////////////Footer///////////////////////////////////////*/
+
+footer{
+  display:flex;
+  flex-direction: column;
+  background-color: #40596b;
+  padding-bottom: 1rem;
+padding-top: 1rem;
+
+  
+}
+
+footer p{
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  max-width: 1200px;
+  padding: 0 1rem;
+  width: 100%;
+/*  box-sizing: inherit;*/
+}
+
+.footer-p1{
+  
+   font-size: 1rem;
+  justify-content: center;
+  color: #c6cdd3;
+  margin-bottom: .25rem;
+  line-height: 1.5;
+  font-weight: 300;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+
+}
+
+
+
+.footer-p2{
+   display: flex;
+  justify-content: center;
+  color: #c6cdd3;
+  margin-bottom: .25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+
+.footer-p3{
+   display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-bottom: .25rem;
+  color: #c6cdd3;
+  line-height: 1.5;
+  font-weight: 300;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+/*//////////////////////////////////////Footer///////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* for desktop */
