@@ -243,7 +243,7 @@ p{
 	justify-content: center;
 }
 .start-using-p1{
-	display: flex;
+	/*display: flex;*/
 	font-weight: 300;
 	line-height: 1.5em;
 	justify-content: center;
@@ -309,7 +309,7 @@ p{
 
 .ab{
   font-weight: 300;
-  color:white;
+  color:#e7eaec;
   font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
 
@@ -454,5 +454,12 @@ footer p{
 
 /* for phone */
 @media only screen and (max-width: 599px){
-
+  /*  .start-using-p1{
+        min-width: 300px;
+       
+    }
+    .start-using-p2{
+        min-width: 300px;
+        
+    }*/
 }
