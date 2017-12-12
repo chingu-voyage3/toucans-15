@@ -31,6 +31,10 @@ body, html {
 
 a { color: inherit; } 
 
+p{
+  color:#3f3f3f; 
+
+}
 
 
 
@@ -286,7 +290,7 @@ a { color: inherit; }
   text-decoration: none;
   width: 100%;
   font-size: 1.75rem;
-  max-width: 300px;
+  max-width: 270px;
   -webkit-box-pack: center;
   -moz-box-pack: center;
   align-items: center;
@@ -302,19 +306,17 @@ a { color: inherit; }
   color: hsla(0,0%,100%,.9);
 }
 
-.ab .ac{
+
+.ab{
+  font-weight: 300;
   color:white;
   font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
 
-.ab{
-  font-weight: 400;
-  color:white;
-}
-
-.ac{
+.strong{
   font-weight:600;
 }
+
 /*Slack Button*/
 
 
@@ -351,6 +353,7 @@ footer p{
   max-width: 1200px;
   padding: 0 1rem;
   width: 100%;
+
 /*  box-sizing: inherit;*/
 }
 
@@ -364,6 +367,7 @@ footer p{
   font-weight: 300;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+
 
 }
 
