@@ -352,7 +352,6 @@ footer p{
   font-family: 'Signika', sans-serif;
   font-size: 1.25rem;
   max-width: 1200px;
-  padding: 0 1rem;
   width: 100%;
 
 /*  box-sizing: inherit;*/
@@ -444,24 +443,43 @@ footer p{
     }
 
     .start-using-p1{
-        margin-left:15px;
+        margin-left:20px;
         text-align: center;
-        margin-right:15px;
+        margin-right:20px;
     }
     .start-using-p2{
-        margin-left:15px;
+        margin-left:20px;
         text-align: center;
-        margin-right:15px;
+        margin-right:20px;
     }
 
-/* for phone */
-@media only screen and (max-width: 599px){
-    .start-using-p1{
-        min-width: 300px;
+/* for phone ---- changed to 400px */
+@media only screen and (max-width: 400px){
 
+    .section-title {
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
-    .start-using-p2{
-        min-width: 300px;
 
+    .how-it-works-body {
+      margin: 2rem 1.25rem;
+    }
+
+    .how-it-works-body:first-child {
+      margin-top: 0.5rem;
+    }
+
+    .final-text {
+      padding-bottom: 3rem;
+    }
+
+    .start-using-p1 {
+      margin-left: 0.55rem;
+      margin-right: 0.55rem;
+    }
+
+    footer {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
     }
 }
