@@ -344,8 +344,6 @@ p{
   text-decoration: none;
   width: 100%;
   font-size: 1.75rem;
-<<<<<<< HEAD
-
   max-width: 300px;
   -webkit-box-pack: center;
   -moz-box-pack: center;
@@ -397,8 +395,8 @@ p{
   color: black;
 }
 
-.ac-font-weight: {
-  600;
+.ac {
+  font-weight:600;
 }
 
 .ab{
