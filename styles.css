@@ -29,10 +29,10 @@ body, html {
 }
 
 
-a { color: inherit; } 
+a { color: inherit; }
 
 p{
-  color:#3f3f3f; 
+  color:#3f3f3f;
 
 }
 
@@ -218,7 +218,7 @@ p{
 	margin: 0 auto;
   border-top: white solid 1px;
 
-  
+
 }
 
 .start-using-title{
@@ -326,7 +326,7 @@ p{
 	margin-bottom: 4rem;
 	font-weight: 300;
   max-width: 600px;
-  
+
 }
 
 /*//////////////////////////////////////Start Using TickyBot///////////////////////////////////////*/
@@ -340,7 +340,7 @@ footer{
   padding-bottom: 1rem;
   padding-top: 1rem;
 
-  
+
 }
 
 footer p{
@@ -349,6 +349,7 @@ footer p{
   margin-bottom: 1.25rem;
   color: hsla(0,0%,100%,.75);
   margin: 0 auto;
+  font-family: 'Signika', sans-serif;
   font-size: 1.25rem;
   max-width: 1200px;
   padding: 0 1rem;
@@ -358,11 +359,12 @@ footer p{
 }
 
 .footer-p1{
-  
+
   font-size: 1rem;
   justify-content: center;
   color: #c6cdd3;
-  font-size: .925rem;
+  margin-bottom: .25rem;
+  font-size: .825rem;
   line-height: 1.5;
   font-weight: 300;
   -moz-osx-font-smoothing: grayscale;
@@ -378,7 +380,7 @@ footer p{
   justify-content: center;
   color: #c6cdd3;
   margin-bottom: .25rem;
-  font-size: .925rem;
+  font-size: .825rem;
   line-height: 1.5;
   font-weight: 300;
   -moz-osx-font-smoothing: grayscale;
@@ -389,7 +391,7 @@ footer p{
 .footer-p3{
   display: flex;
   justify-content: center;
-  font-size: .925rem;
+  font-size: .825rem;
   margin-bottom: .25rem;
   color: #c6cdd3;
   line-height: 1.5;
@@ -419,7 +421,7 @@ footer p{
 
 /* for tablet-portrait */
 @media only screen and (max-width: 740px){
-  
+
   .what-is-container{
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -434,7 +436,7 @@ footer p{
     }
 
      .what-is-p2{
-  
+
     }
 
      .what-is-p3{
@@ -454,12 +456,12 @@ footer p{
 
 /* for phone */
 @media only screen and (max-width: 599px){
-  /*  .start-using-p1{
+    .start-using-p1{
         min-width: 300px;
-       
+
     }
     .start-using-p2{
         min-width: 300px;
-        
-    }*/
+
+    }
 }
