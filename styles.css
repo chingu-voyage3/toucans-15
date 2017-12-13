@@ -29,7 +29,7 @@ body, html {
 }
 
 
-a { color: inherit; } 
+a { color: inherit; }
 
 
 
@@ -69,6 +69,61 @@ a { color: inherit; }
   margin-right: 0;
 }
 
+/*//////////////////////////////////////Hero///////////////////////////////////////*/
+#home{
+  height: 495px;
+  background-color: #55c0ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-div{
+  height: 432px;
+  flex-basis: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-description{
+  display: flex;
+  height: 280px;
+  flex-basis: 548px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  font-family: "Signika", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-description-tickybot{
+  font-size: 4.75rem;
+  font-weight: 300;
+  margin: 0px;
+  color: #244D5E;
+}
+
+#hero-description-content{
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+#hero-description-slack{
+  background-color: blue;
+}
+
+#img-div{
+  display: flex;
+  height: 400px;
+  flex-basis: 548px;
+  margin: 1rem;
+  justify-content: center;
+}
+/*//////////////////////////////////////End of Hero///////////////////////////////////////*/
 
 
 /*//////////////////////////////////////What is TickyBot///////////////////////////////////////*/
@@ -208,7 +263,7 @@ a { color: inherit; }
   width: auto;
   font-size: 1.25rem;
 	margin: 0 auto;
-  
+
 }
 
 .start-using-title{
@@ -276,7 +331,31 @@ a { color: inherit; }
   text-decoration: none;
   width: 100%;
   font-size: 1.75rem;
- 
+
+  max-width: 300px;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  align-items: center;
+  -webkit-box-align: center;
+  transition: background-color .3s ease-in-out,transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
+  width: 100%;
+
+}
+
+.btn2{
+  display: flex;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+  line-height: 1;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.75rem;
+
   max-width: 300px;
   -webkit-box-pack: center;
   -moz-box-pack: center;
@@ -298,6 +377,20 @@ a { color: inherit; }
   font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
 
+.ab-white .ac-white{
+  color: black;
+  font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.ab-white{
+  font-weight: 400;
+  color: black;
+}
+
+.ac-font-weight: {
+  600;
+}
+
 .ab{
   font-weight: 400;
   color:white;
@@ -314,7 +407,7 @@ a { color: inherit; }
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 	font-weight: 300;
-  
+
 }
 
 /*//////////////////////////////////////Start Using TickyBot///////////////////////////////////////*/
@@ -328,7 +421,7 @@ footer{
   padding-bottom: 1rem;
 padding-top: 1rem;
 
-  
+
 }
 
 footer p{
@@ -344,7 +437,7 @@ footer p{
 }
 
 .footer-p1{
-  
+
    font-size: 1rem;
   justify-content: center;
   color: #c6cdd3;
