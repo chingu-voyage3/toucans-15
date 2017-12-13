@@ -107,6 +107,7 @@ p{
   font-weight: 300;
   margin: 0px;
   color: #244D5E;
+
 }
 
 #hero-description-content{
@@ -136,8 +137,8 @@ p{
 	font-family: "Signika", sans-serif;
 	padding: 0 1rem;
 	background-color: #fafafa;
-    width: auto;
-    font-size: 1.25rem;
+  width: auto;
+  font-size: 1.25rem;
 	margin: 0 auto;
 	grid-column-gap:20px;
 
@@ -512,6 +513,78 @@ footer p{
 
 /* for tablet-portrait */
 @media only screen and (max-width: 740px){
+
+#home{
+  height: 1000px;
+  background-color: #55c0ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-div{
+  height: 950px;
+ /* flex-basis: 1200px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-description{
+  display: flex;
+  height: 280px;
+  flex-basis: 548px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  font-family: "Signika", sans-serif;
+  justify-content: center;
+ /* flex-wrap: wrap;*/
+  align-items: center;
+}
+
+#img-div{
+  display: flex;
+  height: 400px;
+  flex-basis: 548px;
+  margin: 1rem;
+  margin-bottom: 5em;
+  justify-content: center;
+}
+
+
+/*-------------*/
+
+#hero-div{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "one"
+                        "two"
+                        "three"
+                        "four"
+}
+
+
+
+#hero-description-tickybot{
+  grid-area:one;
+}
+
+#hero-description-content{
+  grid-area:two;
+}
+
+#hero-description-slack{
+ grid-area:three;
+}
+
+#img-div{
+  grid-area:four;
+}
+
+
+
 
   .what-is-container{
   grid-template-columns: 1fr;
