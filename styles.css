@@ -61,7 +61,7 @@ p{
   font-weight: 300;
   display: inline-block;
   transition: color .3s;
-  margin-right: 0.75rem;
+  margin-right: 0.6rem;
 }
 
 .nav-header a:hover,
@@ -117,9 +117,9 @@ p{
   text-align: center;
 }
 
-#hero-description-slack{
+/*#hero-description-slack{
   background-color: blue;
-}
+}*/
 
 #img-div{
   display: flex;
@@ -364,11 +364,11 @@ p{
   border-radius: 4px;
   line-height: 1;
   justify-content: center;
-  padding: 1rem;
+  padding: 1rem 3.5rem;
   text-decoration: none;
   width: 100%;
   font-size: 1.75rem;
-  max-width: 270px;
+  max-width: 300px;
 
   -webkit-box-pack: center;
   -moz-box-pack: center;
@@ -387,13 +387,14 @@ p{
 
 
 .ab-white .ac-white{
-  color: black;
+  color: #40596b;
   font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
 }
 
 .ab-white{
-  font-weight: 400;
-  color: black;
+  font-weight: 300;
+  color: #40596b;
 }
 
 .ac {
@@ -618,13 +619,42 @@ footer p{
         margin-right:20px;
     }
 
-/* for phone ---- changed to 400px */
-@media only screen and (max-width: 400px){
+/* for phone ---- changed to 450px */
+@media only screen and (max-width: 450px){
 
     .section-title {
       margin-left: 2rem;
       margin-right: 2rem;
     }
+
+    #home{
+      height: 940px;
+    }
+
+    #hero-div{
+      height: 780px;
+    }
+
+    #hero-description {
+      margin-top: 0;
+    }
+
+    #hero-description-content {
+      font-size: 1.65rem;
+      margin: 1.75rem 1.75rem;
+    }
+
+
+    #img-div{
+      margin: 0;
+      margin-bottom: 0;
+    }
+
+    #robot-img {
+      width: 90%;
+      height: 90%;
+    }
+
 
     .how-it-works-body {
       margin: 2rem 1.25rem;
