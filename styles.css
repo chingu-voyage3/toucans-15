@@ -364,7 +364,7 @@ p{
   border-radius: 4px;
   line-height: 1;
   justify-content: center;
-  padding: 2.25rem 3rem;
+  padding: 1rem 3.5rem;
   text-decoration: none;
   width: 100%;
   font-size: 1.75rem;
@@ -619,8 +619,8 @@ footer p{
         margin-right:20px;
     }
 
-/* for phone ---- changed to 400px */
-@media only screen and (max-width: 400px){
+/* for phone ---- changed to 450px */
+@media only screen and (max-width: 450px){
 
     .section-title {
       margin-left: 2rem;
@@ -628,11 +628,11 @@ footer p{
     }
 
     #home{
-      height: 850px;
+      height: 940px;
     }
 
     #hero-div{
-      height: 800px;
+      height: 780px;
     }
 
     #hero-description {
