@@ -203,7 +203,7 @@ p{
   font-family: "Signika";
   font-size: 1.25rem;
   padding-top: 6px;
-  padding-bottom: 40px;
+  padding-bottom: 1rem;
   /*display: grid;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -238,20 +238,26 @@ p{
 }
 
 .how-image {
-  width: 196px;
+  width: 224px;
   height: 230px;
   margin: 40px;
   padding-top: 24px;
 }
 
-.how-it-works-text{
+.how-it-works-text-container {
   background-color: white;
-  margin: 0px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*height: 95px;*/
+}
+
+.how-it-works-text {
   font-weight: 300;
   line-height: 1.5em;
-  padding: 20px;
-  height: 95px;
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .codeblock {
@@ -328,7 +334,7 @@ p{
 }
 
 
-.start-using-img:hover {
+.btn1:hover img {
     transform: scale(1.5) rotate(18deg);
 }
 
@@ -366,8 +372,7 @@ p{
 }
 
 .white-btn:hover {
-  /*fill in more here! :) that background color isn't accurate, just a filler */
-  background-color: #f2f2f2;
+  background-color: hsla(0, 0%, 100%, 0.9);
 }
 
 
@@ -527,12 +532,21 @@ being operable when it's not visible*/
 
 
 /* for desktop */
-@media only screen and (min-width: 1200px){
-  /* all the css above should go here i think? */
+@media only screen and (max-width: 1156px){
+  .how-it-works-body-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .how-it-works-body {
+    flex: 1 0 calc(33.33333% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+  }
 }
 
 /* for tablet-portrait */
-@media only screen and (max-width: 740px){
+@media only screen and (max-width: 745px){
 
 #home{
   height: 1000px;
@@ -683,17 +697,8 @@ being operable when it's not visible*/
       height: 90%;
     }
 
-
-    .how-it-works-body {
-      margin: 2rem 1.25rem;
-    }
-
     .how-it-works-body:first-child {
       margin-top: 0.5rem;
-    }
-
-    .final-text {
-      padding-bottom: 3rem;
     }
 
     .start-using-p1 {
@@ -707,7 +712,7 @@ being operable when it's not visible*/
     }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 350px) {
   .nav-header a:link,
   .nav-header a:visited {
     margin-right: 0.75rem;
@@ -727,9 +732,7 @@ being operable when it's not visible*/
   #hero-description-content {
     margin-top: 1.25rem;
   }
-  .first-text {
-    padding-bottom: 3rem;
-  }
+
   footer {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
