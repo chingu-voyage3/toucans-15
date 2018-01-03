@@ -6,7 +6,7 @@ body, html {
     /*height: 100%;*/  /*TURN IT OFF SO THAT I CAN DETECT SCROLL AMOUNT -- DOESN'T SEEM TO IMPACT ANYTHING ELSE?*/
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;   /*to extend divs to the edge of window*/
+    overflow-x: hidden;
 }
 
 .section-title {
@@ -74,8 +74,8 @@ p{
 }
 
 /*//////////////////////////////////////Hero///////////////////////////////////////*/
-#home{
-  height: 495px;
+.home{
+  /*height: 495px;*/
   background-color: #55c0ec;
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@ p{
 }
 
 #hero-div{
-  height: 432px;
+  /*height: 432px;*/
   flex-basis: 1200px;
   display: flex;
   justify-content: center;
@@ -123,9 +123,9 @@ p{
 
 #img-div{
   display: flex;
-  height: 400px;
-  flex-basis: 548px;
-  margin: 1rem;
+  /*height: 400px;*/
+  flex-basis: auto;
+  margin: 1rem 1rem 2rem;
   justify-content: center;
 }
 /*//////////////////////////////////////End of Hero///////////////////////////////////////*/
@@ -546,10 +546,10 @@ being operable when it's not visible*/
 }
 
 /* for tablet-portrait */
-@media only screen and (max-width: 745px){
+@media only screen and (max-width: 840px){
 
-#home{
-  height: 1000px;
+.home{
+  /*height: 1000px;*/
   background-color: #55c0ec;
   display: flex;
   justify-content: center;
@@ -557,7 +557,7 @@ being operable when it's not visible*/
 }
 
 #hero-div{
-  height: 950px;
+  /*height: 950px;*/
  /* flex-basis: 1200px;*/
   display: flex;
   justify-content: center;
@@ -579,10 +579,10 @@ being operable when it's not visible*/
 
 #img-div{
   display: flex;
-  height: 400px;
-  flex-basis: 548px;
-  margin: 1rem;
-  margin-bottom: 5em;
+  /*height: 400px;*/
+  flex-basis: auto;
+  margin: 1rem 1rem 2rem;
+  /*margin-bottom: 5em;*/
   justify-content: center;
 }
 
@@ -595,26 +595,26 @@ being operable when it's not visible*/
   grid-template-rows: auto;
   grid-template-areas: "one"
                         "two"
-                        "three"
-                        "four"
+                        /*"three"*/
+                        /*"four"*/
 }
 
 
 
-#hero-description-tickybot{
+/*#hero-description-tickybot{
+  grid-area:one;
+}*/
+
+#hero-description-content{
   grid-area:one;
 }
 
-#hero-description-content{
-  grid-area:two;
-}
-
-#hero-description-slack{
+/*#hero-description-slack{
  grid-area:three;
-}
+}*/
 
 #img-div{
-  grid-area:four;
+  grid-area:two;
 }
 
 
@@ -665,36 +665,36 @@ being operable when it's not visible*/
       margin-right: 2rem;
     }
 
-    #home{
+    /*.home{
       height: 940px;
-    }
+    }*/
 
-    #hero-div{
+    /*#hero-div{
       height: 780px;
-    }
+    }*/
 
-    #hero-description {
+    /*#hero-description {
       margin-top: 0;
-    }
+    }*/
 
-    #hero-description-content {
+    /*#hero-description-content {
       font-size: 1.65rem;
-      margin: 1.75rem 1.75rem;
-    }
+      margin: 1.75rem;
+    }*/
 
     .btn1 {
       padding-left: 0.25rem;
       padding-right: 0.25rem;
     }
 
-    #img-div{
+    /*#img-div{
       margin: 0;
       margin-bottom: 0;
-    }
+    }*/
 
     #robot-img {
-      width: 90%;
-      height: 90%;
+      width: 95%;
+      height: 95%;
     }
 
     .how-it-works-body:first-child {
@@ -726,12 +726,12 @@ being operable when it's not visible*/
     margin-left: 0;
     margin-right: 0;
   }
-  #home{
+  /*.home{
     height: 850px;
-  }
-  #hero-description-content {
+  }*/
+  /*#hero-description-content {
     margin-top: 1.25rem;
-  }
+  }*/
 
   footer {
     padding-left: 1.5rem;
