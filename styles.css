@@ -12,7 +12,6 @@ body, html {
 .section-title {
   text-align: center;
   opacity: 0.80;
-
 }
 
 .section-title:after {
@@ -24,7 +23,8 @@ body, html {
   background-color: #55c0ec;
   margin: 5px auto;
   bottom: 0px;
-  transform: translateY(-280%);
+  -webkit-transform: translateY(-280%);
+          transform: translateY(-280%);
 
 }
 
@@ -60,6 +60,7 @@ p{
   font-size: 1.25rem;
   font-weight: 300;
   display: inline-block;
+  -webkit-transition: color .3s;
   transition: color .3s;
   margin-right: 0.75rem;
 }
@@ -77,29 +78,53 @@ p{
 .home{
   /*height: 495px;*/
   background-color: #55c0ec;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #hero-div{
   /*height: 432px;*/
-  flex-basis: 1200px;
+  -ms-flex-preferred-size: 1200px;
+      flex-basis: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.25rem 0;
 }
 
 #hero-description{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /*height: 280px;*/
-  flex-basis: 548px;
+  -ms-flex-preferred-size: 548px;
+      flex-basis: 548px;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 1rem;
   font-family: "Signika", sans-serif;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #hero-description-tickybot{
@@ -122,11 +147,16 @@ p{
 }*/
 
 #img-div{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /*height: 400px;*/
-  flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
   margin: 1rem 1rem 2rem;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*//////////////////////////////////////End of Hero///////////////////////////////////////*/
 
@@ -220,20 +250,35 @@ p{
 
 .how-it-works-body-container{
   /*grid-area: body;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .how-it-works-body{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #41596A;
-  flex-basis: 350px;
+  -ms-flex-preferred-size: 350px;
+      flex-basis: 350px;
   height: 490px;
   margin: 15px;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 5px 5px 0px 0px;
 }
 
@@ -292,25 +337,40 @@ p{
 
 
 .flex1{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .flex2{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .flex3{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .start-using-p1{
 	/*display: flex;*/
 	font-weight: 300;
 	line-height: 1.5em;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
   max-width: 600px;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 1rem;
   margin-top: 0;
   /*margin: 190px;*/
@@ -326,19 +386,26 @@ p{
 .start-using-img{
     margin: 0 1rem 0 0;
     padding: 0;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
     width: 2.5rem;
     background-color: rgba(white, .9);
-    transform: scale(.98);
+    -webkit-transform: scale(.98);
+            transform: scale(.98);
 
 }
 
 
 .btn1:hover img {
-    transform: scale(1.5) rotate(18deg);
+    -webkit-transform: scale(1.5) rotate(18deg);
+            transform: scale(1.5) rotate(18deg);
 }
 
 .btn1{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #40596b;
   cursor: pointer;
@@ -346,7 +413,8 @@ p{
   border: 0;
   border-radius: 4px;
   line-height: 1;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding: 1rem;
   text-decoration: none;
   width: 100%;
@@ -354,7 +422,8 @@ p{
   max-width: 300px;
   -webkit-box-pack: center;
   -moz-box-pack: center;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   -webkit-box-align: center;
   transition: background-color .3s ease-in-out,transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
   width: 100%;
@@ -367,7 +436,8 @@ p{
 
 .btn1:hover{
   background-color: rgba(0,0,0,.7);
-  transform: scale(.98);
+  -webkit-transform: scale(.98);
+          transform: scale(.98);
   color: hsla(0,0%,100%,.9);
 }
 
@@ -405,6 +475,8 @@ p{
 
 
 .start-using-p2{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 4rem;
 	margin-bottom: 4rem;
@@ -418,8 +490,13 @@ p{
 /*//////////////////////////////////////Footer///////////////////////////////////////*/
 
 footer{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #40596b;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -428,6 +505,8 @@ footer{
 }
 
 footer p{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 0;
   margin-bottom: 1.25rem;
@@ -444,7 +523,9 @@ footer p{
 .footer-p1{
 
   font-size: 1rem;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #c6cdd3;
   margin-bottom: .25rem;
   font-size: .825rem;
@@ -459,8 +540,12 @@ footer p{
 
 
 .footer-p2{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #c6cdd3;
   margin-bottom: .25rem;
   font-size: .825rem;
@@ -472,8 +557,12 @@ footer p{
 
 
 .footer-p3{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: .825rem;
   margin-bottom: .25rem;
   color: #c6cdd3;
@@ -502,12 +591,15 @@ being operable when it's not visible*/
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   padding: 5px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: background-color .3s, visibility 1.5s, opacity 1.5s;
   transition: background-color .3s, visibility 1.5s, opacity 1.5s;
 }
 
@@ -522,7 +614,74 @@ being operable when it's not visible*/
 }
 
 
+/*//////////////////////Animations on Page Load/////////////////////////////////////////////*/
 
+/*Trigger for animation*/
+.animate {
+  -webkit-animation-duration: 1.25s;
+          animation-duration: 1.25s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+/*Fade in down animation*/
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -15%, 0);
+            transform: translate3d(0, -15%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -15%, 0);
+            transform: translate3d(0, -15%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+/*Specify delay so that elements appear one after the other*/
+
+.one {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.two {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.three {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.four {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.five {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
 
 
 
@@ -538,7 +697,9 @@ being operable when it's not visible*/
     margin-right: 1rem;
   }
   .how-it-works-body {
-    flex: 1 0 calc(33.33333% - 2rem);
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(33.33333% - 2rem);
+            flex: 1 0 calc(33.33333% - 2rem);
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 3rem;
@@ -551,39 +712,66 @@ being operable when it's not visible*/
 .home{
   /*height: 1000px;*/
   background-color: #55c0ec;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #hero-div{
   /*height: 950px;*/
  /* flex-basis: 1200px;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #hero-description{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /*height: 280px;*/
-  flex-basis: 548px;
+  -ms-flex-preferred-size: 548px;
+      flex-basis: 548px;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 1rem;
   font-family: "Signika", sans-serif;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
  /* flex-wrap: wrap;*/
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #img-div{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /*height: 400px;*/
-  flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
   margin: 1rem 1rem 2rem;
   /*margin-bottom: 5em;*/
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 
@@ -737,4 +925,5 @@ being operable when it's not visible*/
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+}
 }
