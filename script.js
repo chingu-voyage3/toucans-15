@@ -4,10 +4,22 @@
 
 
 window.onscroll = function() {
-  revealBtn()
+  revealBtn();
+  revealHowItWorks();
 };
-
+var howItWorks1 = document.querySelector('.f1');
+var howItWorks2 = document.querySelector('.f2');
+var howItWorks3 = document.querySelector('.f3');
 var goTopBtn = document.querySelector('.back-to-top-btn');
+
+function revealHowItWorks(){
+  if (window.pageYOffset >= 620) {
+    //show (and transition with CSS) button
+    howItWorks1.classList.add("fadeInDown", "animate", "one");
+    howItWorks2.classList.add("fadeInDown", "animate", "two");
+    howItWorks3.classList.add("fadeInDown", "animate", "three");
+    }
+}
 
 function revealBtn() {
   // if window has been scrolled 500 (I think px?)
@@ -31,3 +43,6 @@ function topFunction() {
       setTimeout(topFunction, 5);
     }
 }
+///////////////////**************
+
+
