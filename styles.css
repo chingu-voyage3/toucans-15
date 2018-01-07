@@ -29,12 +29,35 @@ body, html {
 }
 
 
+
 a { color: inherit; }
 
 p{
   color:#3f3f3f;
 
 }
+
+
+/*//////////////////////////////////////robot//////////////////////////////////////*/
+
+/* .st0{fill:#FCCC63;}
+.st1{fill:#FEFEFD;}
+.st2{fill:#354B5D;}
+.st3{fill:#5AC0E9;}
+.st4{fill:#FFFFFF;} */
+
+/* .eye{
+  fill: #000000;
+} */
+/*
+.bob{
+  animation: straight 2s infinite;
+}
+
+@keyframes straight{
+    from{ transform: translate(0,0)}
+    to{ transform: translate(-44px, 72px) rotateZ(-9deg)}
+} */
 
 
 
