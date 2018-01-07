@@ -1,51 +1,30 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>SVG version 1</title>
 
-    <style type="text/css">
 
-    .st0{fill:#FCCC63;}
-    .st1{fill:#FEFEFD;}
-    .st2{fill:#354B5D;}
-    .st3{fill:#5AC0E9;}
-
-    .eyes{
-      fill: #000000;
-    }
-
-    </style>
-  </head>
-
-  <body>
-
-    <h1> tickybott </h1>
-    <?xml version="1.0" encoding="utf-8"?>
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 width="100%" height="100%" viewBox="0 0 864 864" style="enable-background:new 0 0 864 864;" xml:space="preserve">
-    <style type="text/css">
-    	.st0{fill:#FCCC63;}
-    	.st1{fill:#FEFEFD;}
-    	.st2{fill:#354B5D;}
-    	.st3{fill:#5AC0E9;}
-    	.st4{fill:#FFFFFF;}
 
-      /* .eye{
-        fill: #000000;
-      } */
+       <style type="text/css">
+        .st0{fill:#FCCC63;}
+        .st1{fill:#FEFEFD;}
+        .st2{fill:#354B5D;}
+        .st3{fill:#5AC0E9;}
+        .st4{fill:#FFFFFF;}
 
-      .bob{
-        animation: straight 2s infinite;
-      }
+         /* .eye{
+           fill: #000000;
+         } */
 
-      @keyframes straight{
-          from{ transform: translate(0,0)}
-          to{ transform: translate(-44px, 72px) rotateZ(-9deg)}
-      }
+         .bob{
+           animation: straight 2s infinite;
+         }
+
+         @keyframes straight{
+             from{ transform: translate(0,0)}
+             to{ transform: translate(-44px, 72px) rotateZ(-9deg)}
+         }
 
 
-    </style>
-
+       </style>
 
     <path class="st0 background" d="M463.7,624.8c-52.1-0.6-94.2-15.1-130.8-44.8c-24.3-19.7-43-44-56-72.5c-8.1-17.7-13.4-36.2-16.1-55.4
     	c-1.7-11.9-2.4-23.9-1.8-35.8c2.4-44.4,17.1-84.3,45.5-118.7c31.9-38.5,72.7-61.8,122-70.3c11.3-2,22.8-2.9,34.3-2.6
@@ -135,8 +114,3 @@
 
     </g>
     </svg>
-
-
-  </body>
-
-</html>
