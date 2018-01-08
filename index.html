@@ -6,6 +6,12 @@
 	<title>TickyBot - Your Support Ticket Slack Bot</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Signika:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/manifest.json">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ffd05a">
+	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
 
@@ -44,7 +50,7 @@
 
 
 		<div id="img-div">
-			<img id="robot-img" src="img/robot-ph.png" class="animate fadeInDown four">
+			<img id="robot-img" src="img/robot-ph.png" class="animate fadeInDownImages four">
 		</div>
 	</div>
 </div>
@@ -82,19 +88,19 @@
 
 
 	<div class=how-it-works-body-container>
-			<div class="how-it-works-body">
+			<div class="how-it-works-body hidden one">
 				<img class="how-image" src="img/document.svg" alt="img">
 				<div class="how-it-works-text-container">
 					<p class="how-it-works-text">You can add <span class="ticky">Ticky</span>Bot to your Slack workplace by scrolling down or  <a data-scroll href="#start-using">clicking here</a></p>
 				</div>
 			</div>
-			<div class="how-it-works-body">
+			<div class="how-it-works-body hidden twoHiW">
 				<img class="how-image" src="img/chatbubblesvg.svg" alt="img">
 				<div class="how-it-works-text-container">
 					<p class="how-it-works-text">Your users can open a ticket by typing <span class="codeblock">/ticket</span> and their message into the chat field</p>
 				</div>
 			</div>
-			<div class="how-it-works-body third-body">
+			<div class="how-it-works-body third-body hidden two">
 				<img class="how-image" src="img/checklist.svg" alt="img">
 				<div class="how-it-works-text-container">
 					<p class="how-it-works-text">Once you or another admin solved their problems you can type <span class="codeblock">/ticket close #id</span> to close the ticket</p>
@@ -175,6 +181,7 @@
 
 </div><!--end of container-->
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="smooth-scroll.polyfills.min.js"></script>
 <script type="text/javascript">
 	var scroll = new SmoothScroll('a[data-scroll]');
