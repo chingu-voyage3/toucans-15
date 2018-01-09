@@ -31,3 +31,16 @@ function topFunction() {
       setTimeout(topFunction, 5);
     }
 }
+
+//////////How it Works Scroll Animation (needed jquery only for this)
+
+$(window).scroll(function() {
+  $('.hidden').each(function() {
+    var bottom_of_object = $(this).offset().top + 50;
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+    if (bottom_of_window > bottom_of_object) {
+      $(this).addClass("animateHiW");
+      $(this).addClass("fadeInDownImages");
+    }
+  })
+})
