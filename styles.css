@@ -36,6 +36,12 @@ p{
 
 }
 
+    #robot-img {
+      width: 400px;
+      height: 400px;
+    }
+
+
 
 
 /*//////////////////////////////////////Global Styles///////////////////////////////////////*/
@@ -683,6 +689,10 @@ being operable when it's not visible*/
           animation-delay: 1.8s;
 }
 
+  #robot-img {
+  width: 400px;
+  height: 400px;
+  }
 
 
 /*//////////////////////////////////////Media Queries///////////////////////////////////////*/
@@ -704,6 +714,7 @@ being operable when it's not visible*/
     margin-right: 1rem;
     margin-bottom: 3rem;
   }
+
 }
 
 /* for tablet-portrait */
@@ -773,6 +784,11 @@ being operable when it's not visible*/
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+    #robot-img {
+      width: 300px;
+      height: 300px;
+    }
 
 
 /*-------------*/
@@ -879,11 +895,6 @@ being operable when it's not visible*/
       margin: 0;
       margin-bottom: 0;
     }*/
-
-    #robot-img {
-      width: 95%;
-      height: 95%;
-    }
 
     .how-it-works-body:first-child {
       margin-top: 0.5rem;
