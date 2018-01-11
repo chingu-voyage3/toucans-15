@@ -12,20 +12,68 @@
 	.st6{fill:#5AC0E9;}
 
 	.eyes{
-		animation-name: straight;
-		animation-duration: 1s;
-		animation-delay: 4s;
-		animation-fill-mode: forwards;
+		<!-- animation-delay: 2s; -->
+		<!-- animation-fill-mode: forwards; -->
+		animation: straight 13s infinite;
 	}
 
 	@keyframes straight{
-		0% {
+		18% {
 			transform: rotate(0deg);
 		}
-		100% {
+		25% {
 			transform: rotate(10deg)
 			translateY(-25px)
 			translateX(15px);
+		}
+		33% {
+			transform: scale(0.8)
+			rotate(10deg)
+			translateX(65px);
+		}
+		34% {
+			transform: scale(0.8)	
+			rotate(10deg)
+			translateX(65px);		
+		}
+		43% {
+			transform: scale(1)
+			rotate(10deg)
+			translateX(14px)
+			translateY(-30px);
+		}
+		44% {
+			transform: scale(1)
+			rotate(10deg)
+			translateX(14px)
+			translateY(-30px);		
+		}
+		51%{
+			transform: rotate(20deg)
+			translateY(-67px)
+			translateX(20px);
+
+		}
+		65%{
+			transform: rotate(20deg)
+			translateY(-67px)
+			translateX(20px);		
+		}
+		75%{
+			transform: rotate(10deg)
+			translateY(-25px)
+			translateX(13px);
+		}
+		75.5%{
+			transform: rotate(10deg)
+			translateY(-25px)
+			translateX(13px);
+		}
+		83%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(0deg);
 		}
 	}
 
