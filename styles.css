@@ -36,7 +36,7 @@ p{
 
 }
 
-    #robot-img {
+    .robot-img {
       width: 400px;
       height: 400px;
     }
@@ -95,7 +95,7 @@ p{
           align-items: center;
 }
 
-#hero-div{
+.hero-div{
   /*height: 432px;*/
   -ms-flex-preferred-size: 1200px;
       flex-basis: 1200px;
@@ -111,7 +111,7 @@ p{
   padding: 2.25rem 0;
 }
 
-#hero-description{
+.hero-description{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,7 +133,7 @@ p{
           align-items: center;
 }
 
-#hero-description-tickybot{
+.hero-description-tickybot{
   font-size: 4.75rem;
   font-weight: 300;
   margin: 0px;
@@ -141,7 +141,7 @@ p{
 
 }
 
-#hero-description-content{
+.hero-description-content{
   color: white;
   font-size: 1.75rem;
   font-weight: 300;
@@ -152,7 +152,7 @@ p{
   background-color: blue;
 }*/
 
-#img-div{
+.img-div{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -733,7 +733,7 @@ being operable when it's not visible*/
 }
 
 /* <<<<<<< add-mrrobot */
-  #robot-img {
+  .robot-img {
   width: 400px;
   height: 400px;
   }
@@ -783,7 +783,7 @@ being operable when it's not visible*/
           align-items: center;
 }
 
-#hero-div{
+.hero-div{
   /*height: 950px;*/
  /* flex-basis: 1200px;*/
   display: -webkit-box;
@@ -797,7 +797,7 @@ being operable when it's not visible*/
           align-items: center;
 }
 
-#hero-description{
+.hero-description{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -820,7 +820,7 @@ being operable when it's not visible*/
           align-items: center;
 }
 
-#img-div{
+.img-div{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -834,7 +834,7 @@ being operable when it's not visible*/
           justify-content: center;
 }
 
-    #robot-img {
+    .robot-img {
       width: 300px;
       height: 300px;
     }
@@ -842,7 +842,7 @@ being operable when it's not visible*/
 
 /*-------------*/
 
-#hero-div{
+.hero-div{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -858,7 +858,7 @@ being operable when it's not visible*/
   grid-area:one;
 }*/
 
-#hero-description-content{
+.hero-description-content{
   grid-area:one;
 }
 
@@ -866,7 +866,7 @@ being operable when it's not visible*/
  grid-area:three;
 }*/
 
-#img-div{
+.img-div{
   grid-area:two;
 }
 
@@ -965,7 +965,7 @@ being operable when it's not visible*/
   .nav-header a:visited {
     margin-right: 0.75rem;
   }
-  #small-screen-nav-wrap {
+  .small-screen-nav-wrap {
     padding-top: 0.75rem;
   }
   .section-title {
