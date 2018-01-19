@@ -398,7 +398,7 @@ p{
     transition: transform .3s ease-in-out;
     transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
     width: 2.5rem;
-    background-color: rgba(#fff, .9);
+    background-color: rgba(255, 255, 255 .9);
     -webkit-transform: scale(.98);
             transform: scale(.98);
 
@@ -988,5 +988,4 @@ being operable when it's not visible*/
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-}
 }
