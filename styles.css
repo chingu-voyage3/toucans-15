@@ -12,6 +12,7 @@ body, html {
 .section-title {
   text-align: center;
   opacity: 0.80;
+  font-size: 2.5rem;
 }
 
 .section-title:after {
@@ -397,7 +398,7 @@ p{
     transition: transform .3s ease-in-out;
     transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
     width: 2.5rem;
-    background-color: rgba(white, .9);
+    background-color: rgba(#fff, .9);
     -webkit-transform: scale(.98);
             transform: scale(.98);
 
@@ -904,6 +905,8 @@ being operable when it's not visible*/
         text-align: center;
         margin-right:20px;
     }
+
+}
 
 /* for phone ---- changed to 450px */
 @media only screen and (max-width: 450px){
