@@ -398,10 +398,8 @@ p{
     transition: transform .3s ease-in-out;
     transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
     width: 2.5rem;
-    background-color: rgba(255, 255, 255 .9);
     -webkit-transform: scale(.98);
             transform: scale(.98);
-
 }
 
 
@@ -434,11 +432,6 @@ p{
   -webkit-box-align: center;
   transition: background-color .3s ease-in-out,transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
   width: 100%;
-
-}
-
-.white-btn {
-  background-color: #fff;
 }
 
 .btn1:hover{
@@ -448,20 +441,13 @@ p{
   color: hsla(0,0%,100%,.9);
 }
 
+.white-btn {
+  background-color: #fff;
+}
+
 .white-btn:hover {
   background-color: hsla(0, 0%, 100%, 0.9);
 }
-
-
-/*.ab-white .ac-white{
-  color: #40596b;
-  font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-  font-weight: 600;
-}*/
-
-/*.ac {
-  font-weight:600;
-}*/
 
 .ab{
   font-weight: 300;
@@ -540,11 +526,7 @@ footer p{
   font-weight: 300;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-
-
 }
-
-
 
 .footer-p2{
    display: -webkit-box;
@@ -748,8 +730,6 @@ being operable when it's not visible*/
 /*//////////////////////////////////////Media Queries///////////////////////////////////////*/
 
 
-
-
 /* for desktop */
 @media only screen and (max-width: 1156px){
   .how-it-works-body-container {
@@ -805,7 +785,6 @@ being operable when it's not visible*/
   /*height: 280px;*/
   -ms-flex-preferred-size: 548px;
       flex-basis: 548px;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -853,8 +832,6 @@ being operable when it's not visible*/
                         /*"four"*/
 }
 
-
-
 /*#hero-description-tickybot{
   grid-area:one;
 }*/
@@ -870,9 +847,6 @@ being operable when it's not visible*/
 .img-div{
   grid-area:two;
 }
-
-
-
 
   .what-is-container{
   grid-template-columns: 1fr;
