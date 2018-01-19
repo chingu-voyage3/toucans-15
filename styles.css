@@ -223,7 +223,7 @@ p{
 .what-is-p3{
 	grid-area: three;
 	font-weight: 300;
-	margin-bottom: 1rem;
+	margin-bottom: 2.5rem;
 	margin-left: 1em;
 	margin-top: 2em;
 	margin-right: 1em;
@@ -620,7 +620,7 @@ being operable when it's not visible*/
 }
 
 
-/*//////////////////////Animations on Page Load/////////////////////////////////////////////*/
+/*//////////////////////Animations on Page Load & How it Works Animations/////////////////////////////////////////////*/
 
 /*Trigger for animation*/
 .animate {
@@ -630,10 +630,22 @@ being operable when it's not visible*/
           animation-fill-mode: both;
 }
 
+.animateHiW {
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
 /*Fade in down animation*/
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
+}
+
+.fadeInDownImages {
+  -webkit-animation-name: fadeInDownImages;
+          animation-name: fadeInDownImages;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -662,11 +674,42 @@ being operable when it's not visible*/
   }
 }
 
+@-webkit-keyframes fadeInDownImages {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -5%, 0);
+            transform: translate3d(0, -5%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInDownImages {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -5%, 0);
+            transform: translate3d(0, -5%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
 /*Specify delay so that elements appear one after the other*/
 
 .one {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
+}
+
+.twoHiW {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 .two {
@@ -689,11 +732,17 @@ being operable when it's not visible*/
           animation-delay: 1.8s;
 }
 
+/* <<<<<<< add-mrrobot */
   #robot-img {
   width: 400px;
   height: 400px;
   }
 
+/*Hide How it Works Cards until scrolled*/
+
+.hidden {
+  opacity: 0;
+}
 
 /*//////////////////////////////////////Media Queries///////////////////////////////////////*/
 
