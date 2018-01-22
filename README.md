@@ -4,7 +4,9 @@
 
 See our finished project here: https://chingu-voyage3.github.io/toucans-15/
 
-We all 
+Read this intro for the outline of our project and then read below for our individual experiences with Chingu.
+
+We met each other and started our project on December 5, 2017 and finished on January 20, 2018. Over that time we collaborated via the Slack and GitHub platforms 
 
 ### Carolyn
 
