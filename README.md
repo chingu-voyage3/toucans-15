@@ -6,7 +6,7 @@ See our finished project here: https://chingu-voyage3.github.io/toucans-15/
 
 Read this intro for the outline of our project and then read below for our individual experiences with Chingu.
 
-We met each other and started our project on December 5, 2017 and finished on January 20, 2018. Over that time we collaborated via the Slack and GitHub platforms 
+We met each other and started our project on December 5, 2017 and finished on January 20, 2018. Over that time we collaborated via the Slack and GitHub platforms to take [an example website](https://tickybott.herokuapp.com/) and clone it following [Chingu's very helpful roadmap](https://medium.com/chingu/the-voyage-3-remote-developer-project-process-2eda5aea2d51).
 
 ### Carolyn
 
