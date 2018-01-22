@@ -1,8 +1,10 @@
 # toucans-15 Tickybot Clone Project
 
-### Intro Info
+### Introduction
 
-goes here
+See our finished project here: https://chingu-voyage3.github.io/toucans-15/
+
+We all 
 
 ### Carolyn
 
