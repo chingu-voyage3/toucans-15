@@ -11,6 +11,9 @@ We met each other and started our project on December 5, 2017 and finished on Ja
 Some things about our project:
 
   * We used CSS Grid and Flexbox to align our page.
+  * We learned a lot about media queries, SVGs, and animations/JavaScript fades.
+  * We learned even more about Git, GitHub, and collaborating with others without accidentally destroying anyone else's work.
+  * We added a favicon and some links in the 'What is TickyBot' section :)
 
 ### Carolyn
 
@@ -27,10 +30,12 @@ The Voyage was the first time I had ever maintained a project on GitHub with oth
 
 2. Tutorials are great, but you must build!
 
-For the first time, I was able to see how a project comes to life step by step. My team was jubilant with each milestone we hit, and slowly but surely we started nailing down the specifics of the clone. It eventually truly became our own creation, and we relied on the original site less and less for guidance. The speed with which I learned new concepts increased tremoundaly due to the pressure of trying to keep up with my teammates. The lessons I learned in CSS, JS and GIT were more deeply ingested due to the struggle of hitting a wall and working for hours to solve it on my own.The project was about problem solving and communication the whole way through, and it was the most challenging and rewarding experience I’ve had so far in tech.
+For the first time, I was able to see how a project comes to life step by step. My team was jubilant with each milestone we hit, and slowly but surely we started nailing down the specifics of the clone. It eventually truly became our own creation, and we relied on the original site less and less for guidance. The speed with which I learned new concepts increased tremoundaly due to the pressure of trying to keep up with my teammates. The lessons I learned in CSS, JS and GIT were more deeply ingested due to the struggle of hitting a wall and working for hours to solve it on my own. The project was about problem solving and communication the whole way through, and it was the most challenging and rewarding experience I’ve had so far in tech.
 
 Looking back now, I can’t believe how much I’ve learned in such a short period of time. I fully plan on doing another voyage in the future, but for now I want to take my win with me and apply its lessons towards building my own projects. Thanks to Chingu, this step does not seem as daunting.
 
 ### Steve
 
-goes here
+I applied for Chingu through [the Chingu cohort website](https://chingu-cohorts.github.io/chingu-directory/) in a fit of courage/desperation because I didn't know anyone who was trying to learn coding/programming and was coming to the realization that I needed _some_ community if I was to make it through to where I wanted to go. About a week after I applied I saw Chance post in a freeCodeCamp forum that applications were being accepted and that it's best to follow up with him because it's possible some applications could be lost in the process. I decided not to follow up and figured that might be the last I heard of it. A few weeks later I received the acceptance email and nervously awaited the beginning of the voyage. I can say now that this experience has pushed me further toward pursuing coding community (both online and hopefully soon in person) than I ever thought I'd find myself and I am very grateful for that.
+
+I remember reading Chance state somewhere before I started Voyage 3 that the biggest skill we would learn was collaborating on a project with other developers. I also remember thinking "but we'll learn to code too, right?" I couldn't possibly understand just how important the skills of collaboration, communication, Git, and version control were until I was into the Voyage, and Chance was right -- those are the most important skills I am taking from this experience. I have never looked at another person's code with the intent or collaboration, critique, or editing before, and that was such a good experience for a code newbie to have. I think it helped me learn to see how someone else approaches a problem and then accept their solution or work together toward what might be a better solution. I am also grateful to have had the experience of building something from beginning to end, which I had never really done before. Similar to Lennyroy, this has given me a little boost toward working on "build-to-learn" projects of my own and I am excited to continue on with this practice. Outside of these skills, I also learned a lot about CSS (particularly Grid, media queries, and animations), SVGs, and some ways of integrating JavaScript (vanilla, jQuery, and the SmoothScroll library -- probably overkill, but we're still figuring it out) into a site to create interactions for the user. This has been the best short-term learning experience I could have hoped for and I feel very lucky to have been grouped with great learning partners.
