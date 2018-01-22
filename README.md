@@ -13,7 +13,7 @@ Some things about our project:
   * We used CSS Grid and Flexbox to align our page.
   * We learned a lot about media queries, SVGs, and animations/JavaScript fades.
   * We learned even more about Git, GitHub, and collaborating with others without accidentally destroying anyone else's work.
-  * We added a favicon and some links in the 'What is TickyBot' section  : )
+  * We added a favicon and some links in the 'What is TickyBot' section  :)
 
 ### Carolyn
 
