@@ -15,11 +15,11 @@ Some things about our project:
   * We learned even more about Git, GitHub, and collaborating with others without accidentally destroying anyone else's work.
   * We added a favicon and some links in the 'What is TickyBot' section  :)
 
-### Carolyn
+### [Carolyn](https://github.com/carolynshin)
 
 This is the first time I’ve ever worked on a coding project with strangers around the world, let alone collaborate with strangers on anything. It’s been a really cool experience watching our project grow from a black and white html page to a perfect copy of the TickyBot site! There are a lot of great resources out there that allows anyone to learn how to code - I’ve used these resources for the past year. While it’s great that information is so accessible, I’ve run into issues as a junior newbie developer. It’s hard to keep myself accountable to learn when it’s just me learning by myself. And learning from tutorials is not the same as actually doing something. I don’t think there’s anything quite like Chingu out there. I’ve learned the most in a short amount of time, because I had a group that counted on me to finish my assigned task and I was had to learn things on the spot in order to complete the project. I was really lucky to be part of a hard working group.
 
-### Lennyroy
+### [Lennyroy](https://github.com/lennyroyroy)
 
 I have to admit that I was pretty much terrified before the project started. It was refreshing to see that each member of our team had the same feeling coming in. Our first discussion was fruitful, and we were able to communicate easily for the entirety of the project. During this experience my CSS skills increased tremendously, GIT became less of a mystery, and I used external JavaScript libraries for the first time. External libraries had been something that had intimidated me for a while, GIT too, for that matter.
 Two pieces of advice I have heard endlessly from tech professionals were very well represented in the Chingu-Voyage:
@@ -34,7 +34,7 @@ For the first time, I was able to see how a project comes to life step by step. 
 
 Looking back now, I can’t believe how much I’ve learned in such a short period of time. I fully plan on doing another voyage in the future, but for now I want to take my win with me and apply its lessons towards building my own projects. Thanks to Chingu, this step does not seem as daunting.
 
-### Steve
+### [Steve](https://github.com/stevenremenapp)
 
 I applied for Chingu through [the Chingu cohort website](https://chingu-cohorts.github.io/chingu-directory/) in a fit of courage/desperation because I didn't know anyone who was trying to learn coding/programming and was coming to the realization that I needed _some_ community if I was to make it through to where I wanted to go. About a week after I applied I saw Chance post in a freeCodeCamp forum that applications were being accepted and that it's best to follow up with him because it's possible some applications could be lost in the process. I decided not to follow up and figured that might be the last I heard of it. A few weeks later I received the acceptance email and nervously awaited the beginning of the voyage. I can say now that this experience has pushed me further toward pursuing coding community (both online and hopefully soon in person) than I ever thought I'd find myself and I am very grateful for that.
 
